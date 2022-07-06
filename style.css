@@ -14,11 +14,6 @@ body {
   width: 90%;
   margin: auto;
   text-align: center;
-  /* border: 1px solid; */
-}
-
-.h-550 {
-  height: 550px;
 }
 
 h1 {
@@ -32,7 +27,7 @@ h2 {
 
 p {
   font-size: 16px;
-  color: #808080;
+  color: #666565;
 }
 
 .link-btn {
@@ -48,13 +43,15 @@ p {
 
 .border-clr {
   border-bottom: 3px solid #1af8ae;
-  /* border-radius: 1px; */
+  border-radius: 2px;
 }
 
 .text-clr {
   color: #1af8ae;
 }
-
+.strong {
+  font-weight: 600;
+}
 /* Common Styling End  */
 
 /* Banner Styling Start  */
@@ -67,9 +64,7 @@ p {
       rgba(0, 0, 0, 0)
     ),
     url("images/donation2.jpg") no-repeat;
-
   background-size: cover;
-  /* border: 1px solid; */
 }
 
 .banner {
@@ -78,6 +73,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 95vh;
 }
 
 .banner p {
@@ -96,13 +92,11 @@ p {
   align-items: center;
   width: 60%;
   margin: auto;
-  /* border: 1px solid; */
 }
 
 .amount {
   width: 95px;
   height: 65px;
-  /* border: 1px solid; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +115,6 @@ p {
 }
 
 .amount-form {
-  /* border: 1px solid; */
   width: 60%;
   margin: 20px auto 0;
   padding: 15px 0 0 0;
@@ -137,6 +130,8 @@ p {
   font-weight: 500;
 }
 
+/* Donate Section End  */
+
 /* Donation Plan Start  */
 
 .donate-plans {
@@ -151,7 +146,6 @@ p {
 }
 
 .plan {
-  /* border: 1px solid; */
   width: 30%;
   height: 18rem;
   display: flex;
@@ -173,24 +167,62 @@ p {
   background-color: #fff4d6;
 }
 
-/* Footer Styling Start  */
+/* Donation Plans Section End */
 
-footer {
-  background-color: black;
-  padding: 30px;
+/* Events Section Start  */
+
+.events {
+  height: 750px;
+  margin-bottom: 60px;
 }
 
-footer h3 {
-  font-family: "Lobster", cursive;
-  color: #1af8ae;
-  text-align: center;
+.event-flex {
+  display: flex;
 }
+
+.event {
+  width: 48%;
+  text-align: left;
+  padding: 15px;
+}
+.event img {
+  width: 550px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.event i {
+  color: #3bd99e;
+}
+
+.event-details {
+  display: flex;
+  width: 98%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.detail {
+  width: 33.33%;
+}
+
+.water h2 {
+  margin-bottom: 25px;
+}
+
+.campaign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+}
+
+/* Event Section End  */
 
 /* Get Update Styling Start  */
 
 .get-updates {
   height: 320px;
-  /* border: 1px solid; */
 }
 
 .email {
@@ -209,3 +241,20 @@ footer h3 {
   border-radius: 3px;
   background-color: #f3f3f3;
 }
+
+/* Get Update Styling End  */
+
+/* Footer Styling Start  */
+
+footer {
+  background-color: black;
+  padding: 30px;
+}
+
+footer h3 {
+  font-family: "Lobster", cursive;
+  color: #1af8ae;
+  text-align: center;
+}
+
+/* Footer Styling End  */
