@@ -73,7 +73,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 600px;
 }
 
 .banner p {
@@ -186,7 +186,7 @@ p {
   padding: 15px;
 }
 .event img {
-  width: 550px;
+  width: 95%;
   height: 300px;
   border-radius: 5px;
 }
@@ -214,7 +214,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 550px;
+  width: 94%;
 }
 
 /* Event Section End  */
@@ -235,11 +235,15 @@ p {
 
 .email input {
   width: 32%;
-  padding: 10px;
+  padding: 12px;
   border: none;
   color: #eeeeee;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #f3f3f3;
+}
+
+.email .link-btn {
+  margin-left: -5px;
 }
 
 /* Get Update Styling End  */
