@@ -31,17 +31,18 @@ h2 {
 }
 
 p {
-  line-height: 130%;
+  /* line-height: 130%;
   word-spacing: 0.12;
-  letter-spacing: 0.15;
+  letter-spacing: 0.15; */
+  color: #808080;
 }
 
 .link-btn {
   display: inline-block;
   text-decoration: none;
   color: white;
-  background-color: #1af8ae;
-  font-weight: 600;
+  background-color: #3bd99e;
+  font-weight: 500;
   padding: 10px 20px;
   margin-top: 10px;
   border-radius: 5px;
@@ -53,7 +54,7 @@ p {
 }
 
 .text-clr {
-  color: #00ffaa;
+  color: #1af8ae;
 }
 
 /* Common Styling End  */
@@ -81,9 +82,9 @@ p {
   align-items: center;
 }
 
-/* .banner .container {
-  margin: 130px 0;
-} */
+.banner p {
+  color: #eeeeee;
+}
 
 /* Banner Styling End  */
 
@@ -177,9 +178,8 @@ p {
 /* Footer Styling Start  */
 
 footer {
-  text-align: center;
   background-color: black;
-  height: 130px;
+  padding: 30px;
 }
 
 footer h3 {
